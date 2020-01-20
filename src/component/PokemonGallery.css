@@ -1,0 +1,8 @@
+.pokemon-gallery {
+    width : 20%;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+
+
+}

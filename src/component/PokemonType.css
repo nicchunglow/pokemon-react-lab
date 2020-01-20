@@ -1,0 +1,13 @@
+.grass{
+    background-color: green;
+}
+.fire{
+    background-color: orange;
+}
+.water{
+    background-color: skyblue;
+}
+.default{
+    background-color: gainsboro;
+}
+
