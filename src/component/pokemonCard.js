@@ -1,7 +1,7 @@
 import React from "react";
 import "./PokemonCard.css"
-import "./pokemonType.js"
-import { PokemonType } from "./pokemonType.js";
+import "./PokemonType.js"
+import { PokemonType } from "./PokemonType.js";
 function PokemonCard({ pokemon }) {
     const { id, name, type, base } = pokemon;
     return (

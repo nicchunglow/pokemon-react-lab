@@ -1,5 +1,5 @@
 import React from "react";
-import "./pokemonType.css"
+import "./PokemonType.css"
 
 const getTypeClassName = (type) =>{
 switch(type.toLowerCase()){

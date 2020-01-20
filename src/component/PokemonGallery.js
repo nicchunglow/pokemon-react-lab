@@ -1,6 +1,6 @@
 import React from "react";
 import pokemonData from '../pokemon/pokemon';
-import PokemonCard from './pokemonCard';
+import PokemonCard from './PokemonCard';
 
 
 export default () =>{
