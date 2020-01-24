@@ -2,9 +2,12 @@ import React from "react";
 import "./PokemonCard.css"
 import "./PokemonType.js"
 import { PokemonType } from "./PokemonType.js";
+import { Link } from 'react-router-dom'
+
 function PokemonCard({ pokemon }) {
     const { id, name, type, base } = pokemon;
     return (
+      <Link to={`/pokemon/${id}`}>
       <div className="pokemon-card">
               <img 
               className="pokemon-card_image" 
@@ -18,6 +21,7 @@ function PokemonCard({ pokemon }) {
         })}
           </div>
         </div>
+        </Link>
     );
   }
 
